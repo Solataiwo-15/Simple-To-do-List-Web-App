@@ -91,9 +91,9 @@ body {
     cursor: pointer;
 }
 
-.task span{
-    font-family: 'Poppins' sans-serif;
-    font-size: 15px;
+#taskname{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
     font-weight: 400;
 }
 
@@ -210,7 +210,7 @@ body {
         cursor: pointer;
     }
 
-    .task span{
+    #taskname{
         font-family: 'Poppins', sans-serif;
         font-size: 12px;
         font-weight: 400;
