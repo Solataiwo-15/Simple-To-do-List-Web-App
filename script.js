@@ -8,7 +8,7 @@ document.querySelector('#push').onclick = function
         document.querySelector('#tasks').innerHTML
         += `
             <div class="task">
-                <span id="taskname">
+                <span class="taskname">
                     ${document.querySelector
                     ('#new-task input').value}
                 </span>    
@@ -25,7 +25,7 @@ document.querySelector('#push').onclick = function
             }
         }
 
-        var tasks = document.querySelectorAll('.task')
+        var tasks = document.querySelectorAll('.taskname')
         for(var i=0; i<tasks.length; i++){
             tasks[i].onclick = function(){
                 this.classList.toggle('completed')
