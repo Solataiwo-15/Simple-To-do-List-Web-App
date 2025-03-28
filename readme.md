@@ -10,7 +10,7 @@
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- JavaScript
+- Vanilla JavaScript
 
 
 ### Useful resources
